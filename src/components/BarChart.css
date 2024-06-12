@@ -1,0 +1,27 @@
+.bar-chart-container {
+    margin: 20px;
+}
+
+.chart-wrapper {
+    display: flex;
+}
+
+.left-chart {
+    flex: 1;
+    margin-right: 20px;
+    padding-top: 170px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.right-charts {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.right-charts>div {
+    margin-bottom: 20px;
+}

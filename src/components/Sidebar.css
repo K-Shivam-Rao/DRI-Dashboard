@@ -1,0 +1,51 @@
+.sidebar {
+  width: 250px;
+  background-color: #333;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  text-align: center;
+  margin-bottom: 30px;
+  mix-blend-mode: difference;
+}
+.logo img {
+  width: 100px;
+  border-radius: 49%;
+}
+.user-dropdown {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.user-dropdown select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #555;
+  color: #fff;
+  appearance: none;
+}
+.user-dropdown select:focus {
+  outline: 0;
+}
+.menu ul {
+  list-style-type: none;
+  padding: 10px;
+  margin: 5px;
+}
+.menu ul li {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1.5px solid #fff;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.menu ul li:hover {
+  background-color: #f0f8ff;
+  color: #000;
+  text-align: center;
+}

@@ -1,0 +1,67 @@
+.pillar-table {
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.pillar-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "Arial", sans-serif;
+}
+
+.pillar-table th,
+.pillar-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.pillar-table th {
+  background-color: #1976d2;
+  color: white;
+  text-transform: uppercase;
+}
+
+.pillar-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.pillar-table tr:hover {
+  background-color: #e1f5fe;
+}
+
+.pillar-table .sub-row td {
+  padding-left: 30px;
+  background-color: #f9f9f9;
+}
+
+.pillar-table .caret-cell {
+  cursor: pointer;
+  text-align: center;
+}
+
+.pillar-table .caret {
+  display: inline-block;
+  font-size: 18px;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 40%;
+  background-color: #6eb1f4;
+  transition: transform 0.3s ease;
+}
+
+.pillar-table .caret-expanded {
+  transform: rotate(360deg);
+  padding: 10px 10px;
+  border: none;
+  border-radius: 40%;
+  background-color: #6eb1f4;
+}
+
+.pillar-table .caret-expanded:hover{
+    background-color: #0080ff;
+}
